@@ -1,0 +1,31 @@
+$font_family_base: 'Montserrat',
+'Helvetica',
+Arial,
+sans_serif;
+$base: .5rem;
+$font_size_base: $base * 2;
+$font_weight_base: normal;
+$line_height_base: $base * 3;
+$body_color: #000000;
+$body_bg: #fff;
+
+
+$headings_margin_bottom: 0;
+$paragraph_margin_bottom: 0;
+
+$dt_font_weight: bold;
+
+$link_color: #000;
+$link_decoration: none;
+$link_hover_color: darken($link_color, 10%);
+$link_hover_decoration: none;
+$table_cell_padding: .5em;
+
+$text_muted: lighten($body_color, 15%);
+
+// COLORS
+
+$primary_yellow: #FABB36;
+$primary_yellow_hover: #F6B222;
+$secondary_orange: #E77334;
+$secondary_red: #E32A0D;

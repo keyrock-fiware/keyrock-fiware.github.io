@@ -1,0 +1,57 @@
+h1, h2, h3, h4, h5, h6{
+    font-weight: 500;
+}
+h1{
+    line-height: 3rem;
+    font-size: 2.5rem;
+}
+h2{
+    line-height: 3rem;
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.375rem;
+    line-height: 2rem;
+}
+p{
+    font-size: 1.25rem;
+    line-height: 2rem;
+    margin: 1rem 0;
+}
+a{
+    text-decoration: underline;
+    transition: color 250ms ease-in-out;
+    &:hover{
+        color: $primary_yellow;
+        text-decoration: underline;
+    }
+}
+
+a.button{
+    background-color:$primary_yellow;
+    border-radius: 4px;
+    padding: .5rem 1.5rem; 
+    font-weight: 500;
+    text-decoration: none;
+    transition: background-color 250ms ease-in-out;
+    &:hover{
+        text-decoration: none;
+        color: $primary_yellow;
+        background-color: #000;
+    }
+}
+a.button-lg{
+    width: 60%;
+    background-color:$primary_yellow;
+    border-radius: 4px;
+    padding: 1rem 1.5rem; 
+    font-weight: 500;
+    transition: background-color 250ms ease-in-out;
+    text-align: center;
+    text-decoration: none;
+    &:hover{
+        text-decoration: none;
+        color: $primary_yellow;
+        background-color: #000;
+    }
+}
