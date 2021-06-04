@@ -1,6 +1,6 @@
 ## Keyrock landing page
 
 
-- [ ]  Features
+- [x]  Features
 - [ ] Responsive
 
