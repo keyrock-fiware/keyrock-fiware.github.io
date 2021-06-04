@@ -29,4 +29,28 @@
             }
         }
     }    
+    @media (max-width: 895px) {
+        .features{
+            width: 80%;
+        }
+    }
+    @media (max-width: $media_tablet){
+    padding: 0 1rem;
+    margin: 2rem 0 4rem 0;
+    h2{
+        margin-bottom: 2rem;
+    }
+        .features{
+            width: 100%;   
+            .feature{
+                width: 48%;
+                h4{
+                    margin: .5rem;
+                }
+                img{
+                    width: 40%;
+                }
+            }
+        }
+    }
 }

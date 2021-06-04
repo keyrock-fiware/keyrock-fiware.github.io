@@ -26,8 +26,20 @@ body {
     background-color: $body_bg;
     margin: 0;
     padding: 0;
-}
+    background: rgb(255,243,223);
+    background: linear-gradient(180deg, rgba(255,243,223,1) 0%, rgba(255,255,255,1) 63%);
+    }
 .app{
     margin: 1.5rem;
     margin-bottom: 4rem;
+    @media (max-width: $media_tablet){
+        margin: 0;
+    }
+}
+
+.mobile{
+    display: none;
+    @media (max-width: $media_tablet){
+        display: inline;
+    }
 }

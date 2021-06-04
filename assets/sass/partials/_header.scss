@@ -1,40 +1,122 @@
-
-header{
+header {
     display: flex;
     align-items: center;
     margin: 1.5rem;
+
     //border: 1px solid red;
-    .logo{
-        width: 12%;
-        a{
+    .logo {
+        width: 15%;
+
+        a {
             width: 100%;
-            img{
+
+            img {
                 width: 100%;
+                
             }
         }
+        @media (max-width: 895px) {
+            width: 20%;
+        }
     }
-    nav{
+
+    nav {
         margin-left: 3.5rem;
         display: flex;
         width: 88%;
         justify-content: space-between;
-        ul{
+
+        ul {
             list-style: none;
             padding: 0;
             margin: 0;
             display: flex;
             align-items: center;
-           
-            li{
+
+            li {
                 margin-right: 1.5rem;
-                a{
+
+                a {
                     text-decoration: none;
                 }
-                a:hover{
+
+                a:hover {
                     text-decoration: underline;
                     color: #000;
+                }
+                @media (max-width: 895px) {
+                    font-size: .85rem;
                 }
             }
         }
     }
+
+    
+
+    @media (max-width: $media_tablet) {
+        justify-content: center;
+        position: relative;
+       
+      
+        margin: 0;
+        z-index: 2;
+       
+        .logo {
+            width: 100%;
+            z-index: 2;
+            padding: 2rem 0 0 0;
+            display: flex;
+            justify-content: center;
+            background-color: #fff3df;
+            a{
+                width: 30%;
+                    
+                    img{
+                        width: 100%;
+                    }
+                
+            }
+           
+            .menu-opener{
+                font-size: 1.5rem;
+                position: absolute;
+                top: 100%;
+                left: 8%;
+                transform: translate(0, -150%);
+            }
+        }
+
+        nav {
+            width: 100%; 
+            background-color: #fff3df;
+            flex-direction: column;
+            align-items: center;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            margin: 0;
+            z-index: 0;
+            padding: 1rem 0;
+            transform: translate(0, -180%);
+            transition: transform 300ms ease-in-out;
+            //display: none;
+
+            ul {
+                flex-direction: column;
+
+                li {
+                    margin: 0 0 1rem 0;
+
+
+                    a {
+                        text-align: center;
+                        color: #000;
+                    }
+                }
+
+            }
+
+        }
+    }
+
 }

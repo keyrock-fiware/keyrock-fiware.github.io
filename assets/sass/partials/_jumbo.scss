@@ -20,4 +20,16 @@
             margin-bottom: 1rem;
         }
     }
+    @media (max-width: $media_tablet){
+        height: 40vh;
+        img{
+            display: none;
+        }
+    }
+    @media (max-width: $media_mobile){
+       .jumbo_text{
+           width: 80%;
+       }
+    }
+
 }
