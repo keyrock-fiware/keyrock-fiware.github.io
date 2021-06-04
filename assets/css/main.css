@@ -3651,6 +3651,53 @@ header nav ul li a:hover {
   width: 69%;
 }
 
+.provides {
+  margin-top: 5rem;
+}
+
+.provides h2 {
+  text-align: center;
+  margin-bottom: 6rem;
+}
+
+.provides .features {
+  margin: 0 auto;
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 4rem;
+}
+
+.provides .features .feature {
+  width: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.provides .features .feature img {
+  width: 30%;
+  margin-bottom: 1rem;
+}
+
+.provides .features .feature h4, .provides .features .feature span {
+  text-align: center;
+}
+
+.provides .features .feature span {
+  width: 80%;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -3668,5 +3715,6 @@ body {
 
 .app {
   margin: 1.5rem;
+  margin-bottom: 4rem;
 }
 /*# sourceMappingURL=main.css.map */
