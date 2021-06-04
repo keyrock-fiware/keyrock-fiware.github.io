@@ -82,7 +82,7 @@ header {
                 position: absolute;
                 top: 100%;
                 left: 8%;
-                transform: translate(0, -150%);
+                transform: translate(0, -170%);
             }
         }
 
@@ -118,5 +118,16 @@ header {
 
         }
     }
-
+    @media (max-width: $media_mobile){
+        .logo{
+            .menu-opener{
+                font-size: 1.5rem;
+                position: absolute;
+                top: 100%;
+                left: 8%;
+                transform: translate(0, -150%);
+            }
+        }
+        
+    }
 }
